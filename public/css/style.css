@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+/*font-family: 'Bebas Neue', cursive;
+font-family: 'Roboto', sans-serif;*/
+
+
+
+body{
+  background-color: #eeeeee;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+.greatcom-navbar{
+
+  background:linear-gradient(-45deg,#00adb5,#10e2eb,#04b3ba,#00adb5);
+  background-size: 400% 400%;
+  animation: change 8s ease-in-out infinite;
+}
+
+.footer1{
+  background-color: #393e46;
+  color: white !important;
+
+  
+}
+.footer2{
+ background:linear-gradient(-45deg,#00adb5,#10e2eb,#04b3ba,#00adb5);
+ background-size: 400% 400%;
+ animation: change 8s ease-in-out infinite;
+}
+
+
+@keyframes change {
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0 50%;
+  }
+
+
+
+}
+.navbar{
+  margin-top:0;
+}
+.nav-item{
+
+  max-height: 30%;
+}
+
+#logo{
+
+  width:7em;
+}
+
+
+
+footer{
+  margin-top:100px;
+}
+
+.contenu{
+  margin-top:25px;
+  margin-bottom:100px;
+}
+
+.middle-photo{
+  float:left!important;
+}
+.middle-text{
+  float:right!important;
+}
+
+.instruction{
+  margin-bottom:50px;
+  background: rgba(34,40,49,1);
+  background: -moz-linear-gradient(left, rgba(34,40,49,1) 0%, rgba(72,81,94,1) 23%, rgba(34,40,49,1) 38%, rgba(34,40,49,1) 46%, rgba(34,40,49,1) 61%, rgba(72,81,94,1) 78%, rgba(34,40,49,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(34,40,49,1)), color-stop(23%, rgba(72,81,94,1)), color-stop(38%, rgba(34,40,49,1)), color-stop(46%, rgba(34,40,49,1)), color-stop(61%, rgba(34,40,49,1)), color-stop(78%, rgba(72,81,94,1)), color-stop(100%, rgba(34,40,49,1)));
+  background: -webkit-linear-gradient(left, rgba(34,40,49,1) 0%, rgba(72,81,94,1) 23%, rgba(34,40,49,1) 38%, rgba(34,40,49,1) 46%, rgba(34,40,49,1) 61%, rgba(72,81,94,1) 78%, rgba(34,40,49,1) 100%);
+  background: -o-linear-gradient(left, rgba(34,40,49,1) 0%, rgba(72,81,94,1) 23%, rgba(34,40,49,1) 38%, rgba(34,40,49,1) 46%, rgba(34,40,49,1) 61%, rgba(72,81,94,1) 78%, rgba(34,40,49,1) 100%);
+  background: -ms-linear-gradient(left, rgba(34,40,49,1) 0%, rgba(72,81,94,1) 23%, rgba(34,40,49,1) 38%, rgba(34,40,49,1) 46%, rgba(34,40,49,1) 61%, rgba(72,81,94,1) 78%, rgba(34,40,49,1) 100%);
+  background: linear-gradient(to right, rgba(34,40,49,1) 0%, rgba(72,81,94,1) 23%, rgba(34,40,49,1) 38%, rgba(34,40,49,1) 46%, rgba(34,40,49,1) 61%, rgba(72,81,94,1) 78%, rgba(34,40,49,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222831', endColorstr='#222831', GradientType=1 );
+  padding:10px;
+  color:white;
+}
+
+.instruction h2{
+  font-family: 'Bebas Neue', cursive;
+  border-bottom:1rem #00adb5 solid;
+  margin-bottom:2rem;
+}
+
+.instruction img{
+  border:3px solid black;
+  -webkit-box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.75);
+}
+
+.image-instruction{
+  background-color:#eeeeee;
+  padding:1rem;
+}
+
+.news{
+  background-color: #222831;
+  padding:10px;
+  max-height: 90vh !important;
+}
+.newssingle{
+  background-color: #222831;
+  padding:10px;
+  
+}
+
+.newsbody{
+  background-color:#eeeeee;
+
+}
+.card_img{
+  max-height: auto;
+}
+
+a {
+  text-transform: uppercase;
+  color: #00adb5;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #222831;
+  text-decoration: none; 
+}
+
+.post{
+  height:100vh;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar{
+  width:4px;
+  background-color: #00adb5;
+}
+
+::webkit-thumb{
+  border-radius:10px;
+  background-color:#222831;
+}
+
+.profil{
+  height:40vh;
+}
+
+.banner{
+  height:20vh!important;
+  background-color: red;
+}
+
+.hero{
+  background-image: linear-gradient(rgba(0, 173, 181, 0.65),rgba(153,102,51,0.2)),
+  url('../img/banner.jpg') !important;
+  height:90vh;
+  background-size: cover;
+  background-position: center center;
+  padding-top:8vh;
+  padding-bottom:30vh;
+  border-top: 1rem #222831 solid;
+  border-bottom: 1rem #222831 solid;
+
+}
+
+.hero h1{
+
+  font-family: 'Bebas Neue', cursive;
+  text-transform:uppercase;
+  font-size:6rem;
+  color:#222831;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.hero p {
+  font-family: 'Roboto', sans-serif;
+  font-size:1.3rem;
+  line-height: 1.1;
+  padding-left:0.2rem;
+  color:white;
+}
+
+.hero a{
+  margin:5px;
+}
+
+.login_form .pseudo_error{
+  color:red;
+  display:none;
+}
+
+@media only screen and (max-width: 600px) {
+  .post{
+    height:100%;
+  }
+}
